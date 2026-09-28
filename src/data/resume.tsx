@@ -173,7 +173,7 @@ export const DATA = {
       school: "Higher School of Communication of Tunis",
       href: "https://www.supcom.tn/",
       degree: "Bachelor of Science, Computer Science",
-      logoUrl: "/sup-com-logo.jpg",
+      logoUrl: `${import.meta.env.BASE_URL}/sup-com-logo.jpg`,
       start: "2019",
       end: "2022",
     },
@@ -181,7 +181,7 @@ export const DATA = {
       school: "El Manar Preparatory Engineering Institute",
       href: "https://ipeiem.rnu.tn/",
       degree: "Engineering Pre-Studies",
-      logoUrl: "/Logo_IPEIEM.jpg",
+      logoUrl: `${import.meta.env.BASE_URL}/Logo_IPEIEM.jpg`,
       start: "2019",
       end: "2017",
     }
@@ -213,7 +213,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/forecasting.png",
+      image: `${import.meta.env.BASE_URL}/forecasting.png`,
       video: "",
     },
     {
@@ -245,7 +245,7 @@ export const DATA = {
       //image: "",
       //video: "https://cdn.magicui.design/globe.mp4",
       //video:"/anomaly_detection_explainer.mp4"
-      image:"/anomaly-detection.png"
+      image:`${import.meta.env.BASE_URL}/anomaly-detection.png`
     },
     {
       title: "Enterprise RAG / LLM Application",
@@ -269,7 +269,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/llm-app.png",
+      image: `${import.meta.env.BASE_URL}/llm-app.png`,
       video: "",
     },
     {
@@ -289,7 +289,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/forecast-platform.png",
+      image: `${import.meta.env.BASE_URL}/forecast-platform.png`,
       //ideo: "https://cdn.llm.report/openai-demo.mp4",
     },
   ],
