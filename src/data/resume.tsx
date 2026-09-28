@@ -117,14 +117,14 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
-    { href: "/blog", icon: Library, label: "Blog" },
+    //{ href: "/blog", icon: Library, label: "Blog" },
   ],
   contact: {
     email: "rihab.ghrab.ing@outlook.com",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Rihab114",
+        url: "https://github.com/rihab-ghrab",
         icon: Icons.github,
         navbar: true,
       },
