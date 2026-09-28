@@ -23,6 +23,7 @@ import { Brain } from "@/components/ui/svgs/brain";
 import { Data } from "@/components/ui/svgs/data";
 import { Cloud } from "@/components/ui/svgs/cloud";
 import { Agile } from "@/components/ui/svgs/agile";
+import { withBase } from "astro:assets";
 
 export const DATA = {
   name: "Rihab Ghrab - ML Engineer",
@@ -31,8 +32,8 @@ export const DATA = {
     "Senior Machine Learning Engineer. I love turning data into smart systems, models into products, and ideas into AI that actually works.",
   summary:
     "For the past 4+ years, I’ve been building and shipping ML solutions, from demand forecasting and anomaly detection to pricing and inventory optimization. I work across the full stack of ML from data pipelines and model development to cloud deployment, monitoring, and GenAI.\n\n I love turning complex problems into simple, production-ready AI systems that create real business impact.",
-  avatarUrl: "/profile_pic.jpg",
-  ogImage: "/og_image.png",
+  avatarUrl: withBase("/profile_pic.jpg"),
+  ogImage: withBase("/og_image.png"),
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
     skills: { order: 2, enabled: true, heading: "Skills" },
