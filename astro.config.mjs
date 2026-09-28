@@ -20,7 +20,7 @@ const prettyCodeOptions = {
 
 export default defineConfig({
   site: CONFIG.site.url,
-  base: '/profile',
+  base: '/profile/',
 
   vite: {
     plugins: [tailwindcss()],
