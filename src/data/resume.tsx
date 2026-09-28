@@ -207,13 +207,13 @@ export const DATA = {
         "Docker",
         "CI/CD"
       ],
-      links: [
+      /*links: [
         {
           type: "Github",
           href: "https://stackwise.dev",
           icon: <Icons.globe className="size-3" />,
         },
-      ],
+      ],*/
       image: `${import.meta.env.BASE_URL}forecasting.png`,
       video: "",
     },
@@ -236,13 +236,13 @@ export const DATA = {
         "statistical anomaly detection", 
         "feature engineering"
       ],
-      links: [
+      /*links: [
         {
           type: "Github",
           href: "https://github.com/Rihab114/timeseries-anomaly-detection",
           icon: <Icons.github className="size-3" />,
         },
-      ],
+      ],*/
       //image: "",
       //video: "https://cdn.magicui.design/globe.mp4",
       //video:"/anomaly_detection_explainer.mp4"
@@ -258,7 +258,7 @@ export const DATA = {
       technologies: [
         "Python", "LLMs", "RAG", "LangChain", "Sentence Transformers", "Vector Databases", "Embeddings", "Transformers", "Prompt Engineering", "NLP"
       ],
-      links: [
+      /*links: [
         {
           type: "Website",
           href: "https://formbase.dev",
@@ -269,7 +269,7 @@ export const DATA = {
           href: "https://github.com/alexmercer-dev/formbase",
           icon: <Icons.github className="size-3" />,
         },
-      ],
+      ],*/
       image: `${import.meta.env.BASE_URL}llm-app.png`,
       video: "",
     },
@@ -283,13 +283,13 @@ export const DATA = {
       technologies: [
        "Python", "GenAI/LLMs", "REST APIs",  "XGBoost", "Prophet", "Pandas", "SQL", "AWS", 
       ],
-      links: [
+      /*links: [
         {
           type: "Website",
           href: "https://patchwork.run",
           icon: <Icons.globe className="size-3" />,
         },
-      ],
+      ],*/
       image: `${import.meta.env.BASE_URL}forecast-platform.png`,
       //ideo: "https://cdn.llm.report/openai-demo.mp4",
     },
