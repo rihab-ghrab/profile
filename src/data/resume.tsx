@@ -190,7 +190,7 @@ export const DATA = {
   projects: [
     {
       title: "End-to-End Demand Forecasting",
-      href: "https://stackwise.dev",
+      //href: "https://stackwise.dev",
       dates: "March 2023 - June 2023",
       active: true,
       description:
@@ -219,7 +219,7 @@ export const DATA = {
     },
     {
       title: "Production Time-Series Anomaly Detection",
-      href: "https://github.com/Rihab114/timeseries-anomaly-detection",
+      //href: "https://github.com/Rihab114/timeseries-anomaly-detection",
       dates: "October 2023 - February 2024",
       active: true,
       description:
@@ -250,7 +250,7 @@ export const DATA = {
     },
     {
       title: "Enterprise RAG / LLM Application",
-      href: "https://formbase.dev",
+      //href: "https://formbase.dev",
       dates: "June 2025 - September 2025",
       active: true,
       description:
@@ -275,7 +275,7 @@ export const DATA = {
     },
     {
       title: "GenAI Forecasting Platform",
-      href: "https://patchwork.run",
+      //href: "https://patchwork.run",
       dates: "February 2026 - May 2026",
       active: false,
       description:
