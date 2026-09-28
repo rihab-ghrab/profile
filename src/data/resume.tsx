@@ -117,7 +117,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: House, label: "Home" },
-    //{ href: "/blog", icon: Library, label: "Blog" },
   ],
   contact: {
     email: "rihab.ghrab.ing@outlook.com",
@@ -138,7 +137,7 @@ export const DATA = {
         name: "Send Email",
         url: "rihab.ghrab.ing@outlook.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
